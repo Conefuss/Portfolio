@@ -53,7 +53,13 @@ nav div p{
 .hero{
     position: relative;
     display: inline-block;
-    background-color: black;  
+    background-color: black;
+}
+
+.bgHero{
+    background-color: black;
+    display: flex;
+    justify-content: center;
 }
 
 .hero img{    
