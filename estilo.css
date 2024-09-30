@@ -1,0 +1,299 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+:root{
+    --rosa: #FEE1E1;
+    --chicle: #FFA7A7;
+    --comentario: #5F7250;
+  }
+
+*{
+    margin:0;
+    padding:0;    
+    font-family: "Jura", sans-serif;
+    color: white;
+}
+
+header{
+    height: 50px;
+    background-color: black;
+}
+
+header h1{
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 36px;
+    padding-left: 35px;
+}
+
+header h1 span{
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 50px;
+    color: var(--rosa);
+}
+
+nav{
+    width: 100%;
+    background-color: var(--rosa);
+    height: 25px;
+}
+
+nav div{
+    padding-top: 3px;
+    padding-left: 40%;    
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+nav div p{
+    color: black;
+}
+
+.hero{
+    position: relative;
+    display: inline-block;
+    background-color: black;  
+}
+
+.hero img{    
+    width: 100%;
+    z-index: 1;
+}
+
+.heroP, .heroPP {
+    position: absolute;
+    right: 20px;
+    bottom: 60px;
+    color: white;
+    font-size: 2em;
+    margin: 0;
+}
+
+.heroP {
+    z-index: 2;
+}
+
+.heroPP {
+    z-index: 1;
+    bottom: 15px;
+}
+
+h3{
+    padding-top: 50px;
+    padding-bottom: 15px;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    background-color: black;
+}
+
+.about {
+    padding-top: 45px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.about img{
+    width: 280px;
+    margin-right: 20px;
+}
+
+.conocimientos{
+    padding-top: 45px;
+    background-color: black;
+}
+
+.par{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.divCon{
+    height: 300px;
+    width: 250px;
+    border: var(--rosa), 5px, solid;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divCon h4{
+    padding-top: 25px;
+    font-size: 20px;
+
+}
+
+.divCon img{
+    margin-top: 25px;
+    width: 60px;
+}
+
+.divConLista{
+    display: flex;
+    justify-content:space-between;
+}
+
+.divConLista ul{
+    padding-top: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.fr{
+    padding-top: 15px !important;
+}
+
+#primeros{
+    padding-bottom: 50px;
+}
+
+.proyectos{
+    padding-top: 45px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.divProyectos{
+    width: 250px;
+    border: var(--rosa), 5px, solid;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.divProyectos h4{
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.divProyectos img{
+    padding-top: 25px;
+    width: 225px;
+    padding-bottom: 25px;
+}
+
+.contacto{
+    padding-top: 45px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.datos{
+    border: var(--rosa), 5px, dotted;
+    border-radius: 15px;
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.datos h2{
+    padding-bottom: 15px;
+}
+
+.ubicacion img{
+    width: 30px;
+    padding-left: 15px;
+}
+
+.ubicacion{    
+    padding-bottom: 25px;
+    display: flex;
+    align-items: center;    
+}
+
+.links{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.links img{    
+    width: 50px;
+}
+
+.navegacion{
+    margin-top: 50px;
+    width: 100%;
+    background-color: var(--rosa);
+    height: 25px;   
+}
+
+.navegacion div{
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20%;
+    padding-left: 20%; 
+    padding-top: 3px;  
+}
+
+.navegacion p{
+    color: black;
+}
+
+.patitas{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.patitas img{
+    width: 75px;
+}
+
+.separador{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 90px;
+    padding-bottom: 40;
+    
+}
+
+.separadorS{
+    height: 3px;
+    background-color: var(--chicle);
+    width: 35%;
+    border-radius: 20px;
+}
+
+.separadorT{
+    height: 1px;
+    background-color: var(--chicle);
+    width: 10%;
+    border-radius: 20px;
+}
+
+.saixa{
+    font-weight: bolder;
+    color:var(--chicle);
+    font-size: 20px;
+}
+
+.negrita{
+    font-weight: bolder;
+    color:var(--rosa);
+}
+
+.comentario{
+    color: var(--comentario);
+}

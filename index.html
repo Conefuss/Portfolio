@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Jura:wght@300..700&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aixa Astrada</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="rsc/favicon.ico" type="image/x-icon">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header id="he">
+        <h1><span>A</span>ixa <span>A</span>strada</h1>
+    </header>
+    <nav>
+        <div>
+            <p onclick="scrolldiv('sobre')">Sobre mí</p>
+            <p onclick="scrolldiv('cono')">Conocimientos</p>
+            <p onclick="scrolldiv('proy')">Proyectos</p>
+            <p onclick="scrolldiv('conta')">Contacto</p>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <img src="rsc/hero.jpg" alt="Foto de una notebook con stickers y elementos de diseño">
+        <h2 class="heroP">Programadora</h2>
+        <h2 class="heroPP">Diseñadora UX/UI</h2>
+    </section>
+
+    <div class="separador">
+        <hr class="separadorS" >
+        <h3 id="sobre">Sobre mí</h3>
+        <hr class="separadorT">
+    </div>
+    <section class="about" >
+
+        <img src="rsc/about.jpg" alt="Foto mía">
+        <p>Hola, soy <span class="saixa">Aixa!</span><br>
+            Soy una estudiante avanzada de la<br>
+            <span class="negrita">Tecnicatura Universitaria en<br>
+                Programación</span>, con toda la intención<br>
+            de graduarme a finales del 2024.<br>
+            <br>
+            Siento un gran amor por la<br>
+            <span class="negrita">programación</span>, el <span class="negrita">diseño</span> y la<br>
+            <span class="negrita">ilustración</span>. <span class="comentario">/*también por el canto<br>
+                y los videojuegos.*/</span><br>
+            <br>
+            Soy una mente <span class="negrita">curiosa</span> y <span class="negrita">creativa</span>,<br>
+            con una necesidad vehemente de<br>
+            buscar contínuamente nuevos<br>
+            conocimientos.<br>
+            <br>
+            Tengo una fuerte disposición y<br>
+            disfruto de realizar tareas en equipo.<br>
+        </p>
+    </section>
+
+    <div class="separador">
+        <hr class="separadorS">
+        <h3 id="cono">Conocimientos</h3>
+        <hr class="separadorT">
+    </div>
+
+    <section class="conocimientos">
+        <div class="par" id="primeros">
+            <div class="divCon">
+                <h4>Lenguajes</h4>
+                <img src="rsc/programacion.png" alt="Programación">
+                <div class="divConLista">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>C#</li>
+                        <li>SQL</li>
+                    </ul>
+
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="divCon">
+                <h4 class="fr">Frameworks y <br>
+                    Tecnologías</h4>
+                <img src="rsc/framework.png" alt="Diseño">
+                <div class="divConLista">
+                    <ul>
+                        <li>React</li>
+                        <li>Fastapi</li>
+                    </ul>
+
+                    <ul>
+                        <li>PostgreSQL</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="par">
+            <div class="divCon">
+                <h4>Diseño</h4>
+                <img src="rsc/diseño.png" alt="Diseño">
+                <div class="divConLista">
+                    <ul>
+                        <li>Figma</li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                            Clip<br>
+                            Studio<br>
+                            Paint
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="divCon">
+                <h4>Idiomas</h4>
+                <img src="rsc/idiomas.png" alt="Idiomas">
+                <div class="divConLista">
+                    <ul class="listaIdiomas">
+                        <li>Castellano Nativo</li>
+                        <li>Inglés Intermedio</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="separador">
+        <hr class="separadorS">
+        <h3 id="proy">Proyectos</h3>
+        <hr class="separadorT">
+    </div>
+
+    <section class="proyectos">
+        <div class="divProyectos">
+            <h4>Diseño para móvil<br>
+                de Gelata</h4>
+            <a href="https://www.figma.com/proto/caywh5AyGTuuOdvHrnJDKI/Gelata?node-id=0-1&t=IquAffhDepBkFSd9-1"
+                target="_blank"><img src="rsc/gelata.png" alt="Link al diseño para Gelata"></a>
+        </div>
+
+        <div class="divProyectos">
+            <h4>Diseño de<br>
+                esta página</h4>
+            <a href="https://www.figma.com/proto/YoeeTSQrE6zdLZnBJTStsQ/Aixa?node-id=19-43&t=ifTuCFCjkQYxKDt7-1"
+                target="_blank"><img src="rsc/portfolio.png" alt="Link al diseño de esta página"></a>
+        </div>
+    </section>
+
+    <div class="separador">
+        <hr class="separadorS">
+        <h3 id="conta">Contacto</h3>
+        <hr class="separadorT">
+    </div>
+
+    <section class="contacto">
+
+        <div class="datos">
+            <h2>aixa.astrada@gmail.com</h2>
+            <div class="ubicacion">
+                <h4>Paraná, Entre Ríos</h4>
+                <img src="rsc/argentina.png" alt="Argentina">
+            </div>
+            <div class="links">
+                <a href="https://github.com/Conefuss" target="_blank"><img src="rsc/github.png" alt="Link a mi repositorio de GitHub"></a>
+                <a href="https://www.linkedin.com/in/aixa-astrada/" target="_blank"><img src="rsc/linkedin.png" alt="Link a mi perfil de Linkedin"></a>
+            </div>
+        </div>
+
+        <div class="separador">
+            <hr class="separadorS">
+            <h3>Navegación</h3>
+            <hr class="separadorT">
+        </div>
+        <section class="navegacion">
+            <div>
+                <p onclick="scrolldiv('he')">Inicio</p>
+                <p onclick="scrolldiv('sobre')">Sobre mí</p>
+                <p onclick="scrolldiv('cono')">Conocimientos</p>
+                <p onclick="scrolldiv('proy')">Proyectos</p>
+            </div>
+        </section>
+
+        <section class="patitas">
+            <img src="rsc/huella.png" alt="Huellitas de gato">
+        </section>
+    </section>
+
+
+</body>
+
+</html>
