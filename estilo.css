@@ -114,7 +114,7 @@ h3 {
 
 .par {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-left: 20%;
     padding-right: 20%;
 }
