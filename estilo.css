@@ -53,6 +53,7 @@ nav div p {
 
 nav p:hover {
     background-color: var(--chicle);
+    cursor: pointer;
 }
 
 .hero {
@@ -269,6 +270,7 @@ h3 {
 
 .navegacion p:hover{
     background-color: var(--chicle);
+    cursor: pointer;
 }
 
 .patitas {
